@@ -4,17 +4,17 @@ const path = require('path');
 const mode = process.env.NODE_ENV || 'development';
 const prod = mode === 'production';
 
-module.exports = {
+const alias = {
+	svelte: path.resolve('node_modules', 'svelte')
+}
+const extensions = ['.mjs', '.js', '.svelte']
+const mainFields = ['svelte', 'browser', 'module', 'main']
+
+const webpackConfig = {
 	entry: {
 		bundle: ['./src/main.js']
 	},
-	resolve: {
-		alias: {
-			svelte: path.resolve('node_modules', 'svelte')
-		},
-		extensions: ['.mjs', '.js', '.svelte'],
-		mainFields: ['svelte', 'browser', 'module', 'main']
-	},
+	resolve: { alias, extensions, mainFields},
 	output: {
 		path: __dirname + '/public',
 		filename: '[name].js',
@@ -53,3 +53,5 @@ module.exports = {
 	],
 	devtool: prod ? false: 'source-map'
 };
+
+module.exports = webpackConfig
