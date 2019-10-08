@@ -5,7 +5,7 @@ const mode = process.env.NODE_ENV || 'development';
 const prod = mode === 'production';
 
 const alias = {
-	svelte: path.resolve('node_modules', 'svelte'),
+	'@svelte': path.resolve('node_modules', 'svelte'),
 	'@config': path.resolve(__dirname, 'src/config'),
 	'@components': path.resolve(__dirname, 'src/common/components'),
 	'@views': path.resolve(__dirname, './src/views'),

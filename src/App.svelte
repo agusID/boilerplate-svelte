@@ -1,7 +1,7 @@
 <script>
 	import { Router, Link, Route } from 'svelte-routing'
-	import Home from '@views/home/index.svelte'
-	import Explore from '@views/explore/index.svelte'
+	import Home from '@views/Home'
+	import Explore from '@views/Explore'
 
 	export let url = ''
 </script>
