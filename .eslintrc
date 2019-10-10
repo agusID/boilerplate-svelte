@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "plugins": ["prettier", "svelte3"],
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "no-unused-vars": 1,
+    "prettier/prettier": 1
+  }
+}
