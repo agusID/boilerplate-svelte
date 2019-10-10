@@ -1,5 +1,5 @@
 <script>
-  import Modal from '@components/Modal'
+  import { Modal } from 'components'
   let showModal = false
 </script>
 <h1>Home Page</h1>

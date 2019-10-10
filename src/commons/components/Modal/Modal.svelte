@@ -8,7 +8,6 @@
 	}
 
 </script>
-
 <style>
   .modal-background {
 		position: fixed;
