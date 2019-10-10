@@ -45,5 +45,5 @@
 	<slot></slot>
 	<hr>
 
-	<button on:click={handleClick}>close modal</button>
+	<button on:click={handleClick}>close</button>
 </div>
