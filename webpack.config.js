@@ -7,7 +7,7 @@ const prod = mode === 'production';
 const alias = {
 	'@svelte': path.resolve('node_modules', 'svelte'),
 	'@config': path.resolve(__dirname, 'src/config'),
-	'@components': path.resolve(__dirname, 'src/common/components'),
+	'@components': path.resolve(__dirname, './src/commons/components'),
 	'@views': path.resolve(__dirname, './src/views'),
 }
 const extensions = ['.mjs', '.js', '.svelte']
