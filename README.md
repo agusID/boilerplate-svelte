@@ -1,12 +1,19 @@
-# svelte app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+# Boilerplate Svelte
+<p align="left">
+  <a href="https://snyk.io/test/github/agusID/boilerplate-svelte">
+    <img src="https://snyk.io/test/github/agusID/boilerplate-svelte/badge.svg" alt="Known Vulnerabilities" />
+  </a>
+</p>
+
+This is a boilerplate project for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.
+
+To create a new project based on this boilerplate using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template-webpack svelte-app
-cd svelte-app
+npx degit agusID/boilerplate-svelte boilerplate-svelte
+cd boilerplate-svelte
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
@@ -14,10 +21,10 @@ cd svelte-app
 
 ## Get started
 
-Install the dependencies...
+Install the dependencies using `npm`
 
 ```bash
-cd svelte-app
+cd boilerplate-svelte
 npm install
 ```
 
@@ -27,7 +34,7 @@ npm install
 npm run dev
 ```
 
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and the page should reload with your changes.
+Navigate to [localhost:8080](http://localhost:8080). You should see your app running.
 
 
 ## Deploying to the web
@@ -48,17 +55,16 @@ now
 
 As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
 
-### With [surge](https://surge.sh/)
+## Contributing
+Please to read the [Contributing Guidelines](https://github.com/agusID/boilerplate-svelte/blob/master/CONTRIBUTING.md).
 
-Install `surge` if you haven't already:
+## Any question ?
+Send message to
+mail@agusdwi.id
 
-```bash
-npm install -g surge
-```
+<p>
+  <a href="https://github.com/agusID"><img 
+  width="50" style="border-radius: 50%" src="https://avatars3.githubusercontent.com/u/13955708?s=460&v=4" alt="Dwi Agustianto">
+  </a>
+</p>
 
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
