@@ -3,6 +3,10 @@
 	
 	const dispatch = createEventDispatcher()
 	
+	const handleClick = () => {
+		dispatch('close')
+	}
+
 </script>
 
 <style>
@@ -34,7 +38,7 @@
 	}
 </style>
 
-<div class='modal-background' on:click='{() => dispatch("close")}'></div>
+<div class='modal-background' on:click={handleClick}></div>
 
 <div class='modal'>
 	<slot name='header'></slot>
@@ -42,5 +46,5 @@
 	<slot></slot>
 	<hr>
 
-	<button on:click='{() => dispatch("close")}'>close modal</button>
+	<button on:click={handleClick}>close modal</button>
 </div>
