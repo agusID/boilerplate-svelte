@@ -1,5 +1,6 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin')
 const path = require('path')
 
 const mode = process.env.NODE_ENV || 'development'
@@ -66,9 +67,10 @@ const webpackConfig = {
 			inlineSource: isInline ? '.(js|css)$' : '',
 			hash: isInline ? false : true,
 			title: 'svelte-boilerplate'
-		})
+		}),
+		new HtmlWebpackInlineSourcePlugin()
 	],
-	devtool: prod ? false: 'source-map',
+	devtool: prod ? false : 'source-map',
 	devServer: {
 		port: 3000
 	}
