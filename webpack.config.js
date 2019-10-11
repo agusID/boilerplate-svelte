@@ -55,7 +55,10 @@ const webpackConfig = {
 			filename: '[name].css'
 		})
 	],
-	devtool: prod ? false: 'source-map'
+	devtool: prod ? false: 'source-map',
+	devServer: {
+		port: 3000
+	}
 };
 
 module.exports = webpackConfig
