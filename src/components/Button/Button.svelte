@@ -10,18 +10,8 @@
   }
 </script>
 
-<style>
-    .button {
-      border: 1px solid #eee;
-      border-radius: 3px;
-      background-color: #FFFFFF;
-      cursor: pointer;
-      font-size: 15px;
-      padding: 3px 10px;
-      margin: 10px;
-    }
-</style>
+<style src="./style.scss"></style>
 
 <button class="button" on:click={onClick}>
-    {text}
+  {text}
 </button>

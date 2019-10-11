@@ -5,6 +5,8 @@ const path = require('path')
 const mode = process.env.NODE_ENV || 'development'
 const prod = mode === 'production'
 
+const { scss } = require('svelte-preprocess')
+
 const alias = {
 	svelte: path.resolve('node_modules', 'svelte'),
 	components: path.resolve(__dirname, './src/components/index.js'),
@@ -35,7 +37,10 @@ const webpackConfig = {
 					loader: 'svelte-loader',
 					options: {
 						emitCss: true,
-						hotReload: true
+						hotReload: true,
+						preprocess: require('svelte-preprocess')([
+							scss()
+						])
 					}
 				}
 			},
