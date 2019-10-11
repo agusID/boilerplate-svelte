@@ -61,7 +61,7 @@ As an alternative, use the [Now desktop client](https://zeit.co/download) and si
 
 
 ## Contributing
-Please to read the [Contributing Guidelines](https://github.com/agusID/boilerplate-svelte/blob/master/docs/CONTRIBUTING.md).
+Please to read the [Contributing Guidelines](https://github.com/agusID/boilerplate-svelte/blob/master/docs/contributing.md).
 
 ## Any question ?
 Send message to
