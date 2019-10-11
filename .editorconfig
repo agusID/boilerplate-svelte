@@ -9,11 +9,15 @@ indent_style = tab
 
 # Indentation override for all JS under lib directory
 [src/**.js,src/**.svelte]
+end_of_line = lf
+insert_final_newline = true
 indent_style = space
 indent_size = 2
 
 # Matches the exact files either package.json or .travis.yml
 [{package.json,.travis.yml}]
+end_of_line = lf
+insert_final_newline = true
 indent_style = space
 indent_size = 2
 
