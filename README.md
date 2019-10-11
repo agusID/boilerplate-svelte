@@ -57,6 +57,8 @@ As an alternative, use the [Now desktop client](https://zeit.co/download) and si
 
 ## Guides
 - [Storybook](https://github.com/agusID/boilerplate-svelte/blob/master/docs/storybook.md)
+- [Svelte](https://svelte.dev/tutorial/basics)
+
 
 ## Contributing
 Please to read the [Contributing Guidelines](https://github.com/agusID/boilerplate-svelte/blob/master/docs/CONTRIBUTING.md).
