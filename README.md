@@ -2,6 +2,9 @@
 
 # Boilerplate Svelte
 <p align="left">
+  <a href="https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master">
+    <img src="https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master" alt="Travis CI" />
+  </a>
   <a href="https://snyk.io/test/github/agusID/boilerplate-svelte">
     <img src="https://snyk.io/test/github/agusID/boilerplate-svelte/badge.svg" alt="Known Vulnerabilities" />
   </a>
