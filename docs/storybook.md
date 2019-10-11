@@ -4,7 +4,7 @@ Now create a `./src/[components]/index.stories.js` file, and write your story li
 ```javascript
 import { action } from '@storybook/addon-actions'
 
-import Button from '../../src/commons/components/Button/Button.svelte'
+import Button from '../../src/components/Button/Button.svelte'
 
 export default {
   title: 'Button',

@@ -6,7 +6,8 @@ const prod = mode === 'production';
 
 const alias = {
 	svelte: path.resolve('node_modules', 'svelte'),
-	components: path.resolve(__dirname, './src/commons/components/index.js'),
+	components: path.resolve(__dirname, './src/components/index.js'),
+	'@assets': path.resolve(__dirname, 'src/assets'),
 	'@config': path.resolve(__dirname, 'src/config'),
 	'@views': path.resolve(__dirname, './src/views'),
 }
