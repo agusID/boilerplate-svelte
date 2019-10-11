@@ -55,8 +55,11 @@ now
 
 As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
 
+## Guides
+- [Storybook](https://github.com/agusID/boilerplate-svelte/blob/master/docs/storybook.md)
+
 ## Contributing
-Please to read the [Contributing Guidelines](https://github.com/agusID/boilerplate-svelte/blob/master/CONTRIBUTING.md).
+Please to read the [Contributing Guidelines](https://github.com/agusID/boilerplate-svelte/blob/master/docs/CONTRIBUTING.md).
 
 ## Any question ?
 Send message to
