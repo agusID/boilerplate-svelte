@@ -1,6 +1,24 @@
-.DS_Store
-node_modules
-public/bundle.*
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+#history
+.history
+
+#others
+.DS_Store
+public/bundle.*
 package-lock.json
 yarn.lock
