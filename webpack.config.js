@@ -55,7 +55,15 @@ const webpackConfig = {
 					prod ? MiniCssExtractPlugin.loader : 'style-loader',
 					'css-loader'
 				]
-			}
+			},
+			{
+				test: /\.(png|jpe?g|svg)$/,
+				use: [
+					{
+						loader: 'file-loader'
+					},
+				],
+			},
 		]
 	},
 	mode,
@@ -74,6 +82,6 @@ const webpackConfig = {
 	devServer: {
 		port: 3000
 	}
-};
+}
 
 module.exports = webpackConfig
