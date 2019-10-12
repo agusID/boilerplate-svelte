@@ -75,3 +75,6 @@ mail@agusdwi.id
   </a>
 </p>
 
+## License
+
+[MIT](https://github.com/agusID/boilerplate-svelte/blob/master/LICENSE)
