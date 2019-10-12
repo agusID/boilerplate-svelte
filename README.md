@@ -1,14 +1,10 @@
 
 
 # Boilerplate Svelte
-<p align="left">
-  <a href="https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master">
-    <img src="https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master" alt="Travis CI" />
-  </a>
-  <a href="https://snyk.io/test/github/agusID/boilerplate-svelte">
-    <img src="https://snyk.io/test/github/agusID/boilerplate-svelte/badge.svg" alt="Known Vulnerabilities" />
-  </a>
-</p>
+[![Travis CI](https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master)](https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master)
+[![CodeFactor](https://www.codefactor.io/repository/github/agusid/boilerplate-svelte/badge)](https://www.codefactor.io/repository/github/agusid/boilerplate-svelte)
+[![Known Vulnerabilities](https://snyk.io/test/github/agusID/boilerplate-svelte/badge.svg)](https://snyk.io/test/github/agusID/boilerplate-svelte/badge.svg)
+
 
 This is a boilerplate project for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.
 
