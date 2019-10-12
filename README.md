@@ -8,6 +8,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/4c4d867246987a1dc614/maintainability)](https://codeclimate.com/github/agusID/boilerplate-svelte/maintainability)
 [![Code Size](https://img.shields.io/github/languages/code-size/agusID/boilerplate-svelte)](https://img.shields.io/github/languages/code-size/agusID/boilerplate-svelte)
 [![Contributor](https://img.shields.io/github/contributors/agusID/boilerplate-svelte?color=%232980b9)](https://img.shields.io/github/contributors/agusID/boilerplate-svelte?color=%232980b9)
+[![License](https://img.shields.io/github/license/agusID/boilerplate-svelte)](https://github.com/agusID/boilerplate-svelte/blob/master/LICENSE)
 
 This is a boilerplate project for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.
 
