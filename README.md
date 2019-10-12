@@ -1,10 +1,15 @@
 
 
 # Boilerplate Svelte
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)
+
 [![Travis CI](https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master)](https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/agusid/boilerplate-svelte/badge)](https://www.codefactor.io/repository/github/agusid/boilerplate-svelte)
 [![Known Vulnerabilities](https://snyk.io/test/github/agusID/boilerplate-svelte/badge.svg)](https://snyk.io/test/github/agusID/boilerplate-svelte/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4c4d867246987a1dc614/maintainability)](https://codeclimate.com/github/agusID/boilerplate-svelte/maintainability)
 
+[![Code Size](https://img.shields.io/github/languages/code-size/agusID/boilerplate-svelte)](https://img.shields.io/github/languages/code-size/agusID/boilerplate-svelte)
+[![Contributor](https://img.shields.io/github/contributors/agusID/boilerplate-svelte?color=%232980b9)](https://img.shields.io/github/contributors/agusID/boilerplate-svelte?color=%232980b9)
 
 This is a boilerplate project for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.
 
