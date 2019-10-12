@@ -77,5 +77,4 @@ mail@agusdwi.id
 </p>
 
 ## License
-
-[MIT](https://github.com/agusID/boilerplate-svelte/blob/master/LICENSE)
+The Boilerplate Svelte is open-sourced software licensed under the [MIT license](https://github.com/agusID/boilerplate-svelte/blob/master/LICENSE).
