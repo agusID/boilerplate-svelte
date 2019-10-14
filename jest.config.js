@@ -1,3 +1,5 @@
+const svelteConfig = require('./svelte.config')
+
 module.exports = {
   testPathIgnorePatterns: ['/node_modules/', '/cypress/'],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
@@ -7,10 +9,11 @@ module.exports = {
   },
   globals: {
     svelte: {
-      // preprocess: preprocess(),
+      preprocess: svelteConfig.preprocess,
       compilerOptions: {
         accessors: true,
       },
     },
   },
+  moduleFileExtensions: ['ts', 'js', 'svelte'],
 }

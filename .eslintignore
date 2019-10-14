@@ -3,3 +3,6 @@ build
 *.log
 .env
 .idea
+svelte.config.js
+jest.config.js
+webpack.config.js

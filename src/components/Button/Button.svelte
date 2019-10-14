@@ -5,7 +5,7 @@
 
   const dispatch = createEventDispatcher()
 
-  function onClick(event) {
+  const onClick = event => {
     dispatch('click', event)
   }
 </script>
