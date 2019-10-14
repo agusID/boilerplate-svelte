@@ -1,6 +1,9 @@
 # Storybook
+
 ## Write your stories
+
 Now create a `./src/[components]/index.stories.js` file, and write your story like this:
+
 ```javascript
 import { action } from '@storybook/addon-actions'
 
@@ -23,12 +26,14 @@ export const emoji = () => ({
   },
   on: { click: action('clicked') },
 })
-
 ```
 
 ## Run your Storybook
+
 Run your storybook with:
+
 ```bash
 npm run storybook
 ```
+
 Storybook should start, on a random open port in dev-mode.

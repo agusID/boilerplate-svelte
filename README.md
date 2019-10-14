@@ -1,6 +1,5 @@
-
-
 # Boilerplate Svelte
+
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)
 [![Travis CI](https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master)](https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master)
 [![Coverage](https://img.shields.io/codeclimate/coverage/agusID/boilerplate-svelte)](https://img.shields.io/codeclimate/coverage/agusID/boilerplate-svelte?style=flat-square)
@@ -20,8 +19,7 @@ npx degit agusID/boilerplate-svelte boilerplate-svelte
 cd boilerplate-svelte
 ```
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
+_Note that you will need to have [Node.js](https://nodejs.org) installed._
 
 ## Get started
 
@@ -39,7 +37,6 @@ npm run dev
 ```
 
 Navigate to [localhost:8080](http://localhost:8080). You should see your app running.
-
 
 ## Deploying to the web
 
@@ -60,14 +57,16 @@ now
 As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
 
 ## Guides
+
 - [Storybook](https://github.com/agusID/boilerplate-svelte/blob/master/docs/storybook.md)
 - [Svelte](https://svelte.dev/tutorial/basics)
 
-
 ## Contributing
+
 Please to read the [Contributing Guidelines](https://github.com/agusID/boilerplate-svelte/blob/master/docs/contributing.md).
 
 ## Any question ?
+
 Send message to
 mail@agusdwi.id
 
@@ -78,4 +77,5 @@ mail@agusdwi.id
 </p>
 
 ## License
+
 The Boilerplate Svelte is open-sourced software licensed under the [MIT license](https://github.com/agusID/boilerplate-svelte/blob/master/LICENSE).

@@ -1,4 +1,4 @@
-const decodeEntities = (str) => {
+const decodeEntities = str => {
   if (str && typeof str === 'string') {
     const element = document.createElement('div')
     str = str.replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gim, '')

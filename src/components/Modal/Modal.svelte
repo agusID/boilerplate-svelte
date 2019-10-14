@@ -1,23 +1,24 @@
 <script>
   import { createEventDispatcher } from 'svelte'
-	
-	const dispatch = createEventDispatcher()
-	
-	const handleClick = () => {
-		dispatch('close')
-	}
 
+  const dispatch = createEventDispatcher()
+
+  const handleClick = () => {
+    dispatch('close')
+  }
 </script>
 
-<style src="./style.scss"></style>
+<style src="./style.scss">
 
-<div class='modal-background' on:click={handleClick}></div>
+</style>
 
-<div class='modal'>
-	<slot name='header'></slot>
-	<hr>
-	<slot></slot>
-	<hr>
+<div class="modal-background" on:click={handleClick} />
 
-	<button on:click={handleClick}>close</button>
+<div class="modal">
+  <slot name="header" />
+  <hr />
+  <slot />
+  <hr />
+
+  <button on:click={handleClick}>close</button>
 </div>

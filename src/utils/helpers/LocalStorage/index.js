@@ -14,7 +14,7 @@ const getLocalStorage = (key = '') =>
 /**
  * @param {String} key
  */
-const destroyLocalStorage = (key) => {
+const destroyLocalStorage = key => {
   localStorage.removeItem(key)
 }
 

@@ -1,17 +1,17 @@
 <script>
-  import { createEventDispatcher } from 'svelte';
-  
-  export let text = '';
+  import { createEventDispatcher } from 'svelte'
 
-  const dispatch = createEventDispatcher();
+  export let text = ''
+
+  const dispatch = createEventDispatcher()
 
   function onClick(event) {
     dispatch('click', event)
   }
 </script>
 
-<style src="./style.scss"></style>
+<style src="./style.scss">
 
-<button class="button" on:click={onClick}>
-  {text}
-</button>
+</style>
+
+<button class="button" on:click={onClick}>{text}</button>
