@@ -58,7 +58,7 @@
     "dev": "webpack-dev-server --content-base public",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest src --passWithNoTests",
+    "test": "jest src --passWithNoTests --coverage",
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
