@@ -6,7 +6,7 @@
     "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "^7.6.3",
     "@storybook/addon-actions": "^5.2.4",
-    "@storybook/addon-links": "^5.2.3",
+    "@storybook/addon-links": "^5.2.4",
     "@storybook/addons": "^5.2.4",
     "@storybook/svelte": "^5.2.3",
     "@testing-library/jest-dom": "^4.1.2",
