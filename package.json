@@ -83,7 +83,22 @@
   },
   "description": "Boilerplate Svelte Javascript Framework",
   "main": "index.js",
-  "repository": "https://github.com/agusID/boilerplate-svelte.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusID/boilerplate-svelte.git"
+  },
   "author": "Dwi Agustianto <dwi.agustianto@ralali.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agusID/boilerplate-svelte/issues"
+  },
+  "homepage": "https://github.com/agusID/boilerplate-svelte#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [
+    "Boilerplate",
+    "Svelte",
+    "Javascript"
+  ]
 }
