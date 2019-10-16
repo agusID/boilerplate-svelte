@@ -15,7 +15,7 @@ const alias = {
   '@config': path.resolve(__dirname, './src/config'),
   '@views': path.resolve(__dirname, './src/views'),
 }
-const extensions = ['.mjs', '.js', '.svelte']
+const extensions = ['.mjs', '.ts', '.js', '.svelte']
 const mainFields = ['svelte', 'browser', 'module', 'main']
 
 const isInline = process.env.INLINE_SOURCE
