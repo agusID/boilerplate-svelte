@@ -60,6 +60,7 @@ As an alternative, use the [Now desktop client](https://zeit.co/download) and si
 
 - [Storybook](https://github.com/agusID/boilerplate-svelte/blob/master/docs/storybook.md)
 - [Svelte](https://svelte.dev/tutorial/basics)
+- [Testing](https://github.com/agusID/boilerplate-svelte/blob/master/docs/testing.md)
 
 ## Contributing
 
