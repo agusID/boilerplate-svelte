@@ -2,7 +2,23 @@
 
 ## Write your stories
 
-Now create a `./src/[components]/index.stories.js` file, and write your story like this:
+Now create a `./stories/[components]/index.stories.js` file.
+
+```
+•
+├── src
+│   └── components
+│       └── Button
+│           └── index.js
+└── stories
+    └── Button
+        └── index.stories.js
+
+```
+
+> NOTE : stories directory outside src directory.
+
+and write your story like this:
 
 ```javascript
 import { action } from '@storybook/addon-actions'
