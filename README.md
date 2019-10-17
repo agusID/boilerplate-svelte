@@ -1,17 +1,18 @@
 # Boilerplate Svelte
 
 [<img src="docs/svelte-logo.svg" align="right" width="100">](https://svelte.dev)
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)
 [![Travis CI](https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master)](https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master)
 [![Coverage](https://img.shields.io/codeclimate/coverage/agusID/boilerplate-svelte)](https://img.shields.io/codeclimate/coverage/agusID/boilerplate-svelte?style=flat-square)
 [![CodeFactor](https://www.codefactor.io/repository/github/agusid/boilerplate-svelte/badge)](https://www.codefactor.io/repository/github/agusid/boilerplate-svelte)
 [![Known Vulnerabilities](https://snyk.io/test/github/agusID/boilerplate-svelte/badge.svg)](https://snyk.io/test/github/agusID/boilerplate-svelte/badge.svg)
+
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4c4d867246987a1dc614/maintainability)](https://codeclimate.com/github/agusID/boilerplate-svelte/maintainability)
 [![Code Size](https://img.shields.io/github/languages/code-size/agusID/boilerplate-svelte)](https://img.shields.io/github/languages/code-size/agusID/boilerplate-svelte)
-[![Contributor](https://img.shields.io/github/contributors/agusID/boilerplate-svelte?color=%232980b9)](https://img.shields.io/github/contributors/agusID/boilerplate-svelte?color=%232980b9)
+[![Contributor](https://img.shields.io/github/contributors/agusID/boilerplate-svelte?color=%23e67e22)](https://img.shields.io/github/contributors/agusID/boilerplate-svelte?color=%232980b9)
 [![License](https://img.shields.io/github/license/agusID/boilerplate-svelte)](https://github.com/agusID/boilerplate-svelte/blob/master/LICENSE)
 
-This is a boilerplate project for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.
+This is a boilerplate project for [Svelte](https://svelte.dev) apps.
 
 To create a new project based on this boilerplate using [degit](https://github.com/Rich-Harris/degit):
 
