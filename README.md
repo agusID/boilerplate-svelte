@@ -1,5 +1,6 @@
 # Boilerplate Svelte
 
+[<img src="docs/svelte-logo.svg" align="right" width="100">](https://svelte.dev)
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)
 [![Travis CI](https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master)](https://travis-ci.org/agusID/boilerplate-svelte.svg?branch=master)
 [![Coverage](https://img.shields.io/codeclimate/coverage/agusID/boilerplate-svelte)](https://img.shields.io/codeclimate/coverage/agusID/boilerplate-svelte?style=flat-square)
