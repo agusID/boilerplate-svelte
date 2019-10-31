@@ -9,7 +9,7 @@
     "@storybook/addon-links": "^5.2.5",
     "@storybook/addons": "^5.2.5",
     "@storybook/svelte": "^5.2.5",
-    "@testing-library/jest-dom": "^4.2.0",
+    "@testing-library/jest-dom": "^4.2.2",
     "@testing-library/svelte": "^1.9.0",
     "@typescript-eslint/eslint-plugin": "^2.6.0",
     "@typescript-eslint/parser": "^2.5.0",
