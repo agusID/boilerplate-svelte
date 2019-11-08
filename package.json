@@ -69,7 +69,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "format": "npm-run-all -c format:*",
-    "format:eslint": "eslint --fix '**/*.{js,ts,svelte}'",
+    "format:eslint": "eslint --fix '**/*.{js,ts}'",
     "format:prettier": "prettier --write '**/*.{js,ts,svelte,json,md,css}'",
     "lint": "npm-run-all -c lint:*",
     "lint:eslint": "eslint '**/*.{js,ts}'",
