@@ -5,7 +5,7 @@
     "@babel/core": "^7.7.7",
     "@babel/plugin-transform-runtime": "^7.7.6",
     "@babel/preset-env": "^7.7.7",
-    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-actions": "^5.3.2",
     "@storybook/addon-links": "^5.2.8",
     "@storybook/addons": "^5.2.8",
     "@storybook/svelte": "^5.2.8",
