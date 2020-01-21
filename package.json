@@ -8,7 +8,7 @@
     "@storybook/addon-actions": "^5.2.8",
     "@storybook/addon-links": "^5.2.8",
     "@storybook/addons": "^5.2.8",
-    "@storybook/svelte": "^5.2.8",
+    "@storybook/svelte": "^5.3.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/svelte": "^1.11.0",
     "@typescript-eslint/eslint-plugin": "^2.13.0",
