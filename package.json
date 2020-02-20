@@ -43,7 +43,7 @@
     "svelte-test": "^0.4.0",
     "typescript": "^3.7.5",
     "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
   "jest": {
