@@ -79,7 +79,7 @@
   },
   "dependencies": {
     "eslint-config-airbnb": "^18.0.1",
-    "svelte-routing": "^1.4.1"
+    "svelte-routing": "^1.4.2"
   },
   "description": "Boilerplate Svelte Javascript Framework",
   "main": "index.js",
