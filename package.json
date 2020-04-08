@@ -78,7 +78,7 @@
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb": "^18.1.0",
     "svelte-routing": "^1.4.2"
   },
   "description": "Boilerplate Svelte Javascript Framework",
