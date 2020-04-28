@@ -7,7 +7,7 @@
     "@babel/preset-env": "^7.9.5",
     "@storybook/addon-actions": "^5.3.13",
     "@storybook/addon-links": "^5.3.18",
-    "@storybook/addons": "^5.3.13",
+    "@storybook/addons": "^5.3.18",
     "@storybook/svelte": "^5.3.14",
     "@testing-library/jest-dom": "^5.1.1",
     "@testing-library/svelte": "^3.0.0",
