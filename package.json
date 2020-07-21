@@ -2,7 +2,7 @@
   "name": "boilerplate-svelte",
   "version": "1.0.0",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^7.10.5",
     "@babel/plugin-transform-runtime": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "@storybook/addon-actions": "^5.3.13",
