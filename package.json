@@ -26,7 +26,7 @@
     "file-loader": "^6.0.0",
     "html-webpack-inline-source-plugin": "0.0.10",
     "html-webpack-plugin": "^3.2.0",
-    "husky": "^4.2.5",
+    "husky": "^4.3.0",
     "jest": "^25.1.0",
     "jest-dom": "^4.0.0",
     "jest-transform-svelte": "^2.1.1",
