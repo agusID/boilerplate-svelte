@@ -1,0 +1,49 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "22:00"
+  open-pull-requests-limit: 20
+  reviewers:
+  - agusID
+  ignore:
+  - dependency-name: "@storybook/svelte"
+    versions:
+    - 6.1.11
+    - 6.1.15
+    - 6.1.18
+  - dependency-name: svelte
+    versions:
+    - 3.31.0
+    - 3.32.3
+  - dependency-name: "@testing-library/jest-dom"
+    versions:
+    - 5.11.6
+    - 5.11.9
+  - dependency-name: "@storybook/addon-links"
+    versions:
+    - 6.1.11
+    - 6.1.15
+  - dependency-name: "@storybook/addon-actions"
+    versions:
+    - 6.1.11
+  - dependency-name: prettier-plugin-svelte
+    versions:
+    - 1.4.2
+  - dependency-name: css-loader
+    versions:
+    - 5.0.1
+  - dependency-name: "@babel/plugin-transform-runtime"
+    versions:
+    - 7.12.1
+  - dependency-name: webpack-dev-server
+    versions:
+    - 3.11.0
+  - dependency-name: webpack
+    versions:
+    - 4.44.2
+  - dependency-name: html-webpack-plugin
+    versions:
+    - 4.5.0
